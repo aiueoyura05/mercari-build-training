@@ -54,6 +54,10 @@ def save_item(item):
         with open(items_file, "w", encoding="utf-8") as file:
             json.dump({"items": [item]}, file, indent=4)
     
+@app.get("/items")
+def get_items():
+    items = load_items()
+    return items
 
 @app.get("/items/{item_id}")
 def get_items(item_id: int):
