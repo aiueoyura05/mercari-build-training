@@ -1,14 +1,21 @@
-FROM FROM python:3.9-slim
+FROM python:3.11-alpine
 
-WORKDIR /python
 
-RUN addgroup -S mercari && adduser -S trainee -G mercari
-RUN python -m venv .venv
-RUN source .venv/bin/activate
-RUN pip install -r requirements.txt
+WORKDIR /app
 
-EXPOSE 9006
+RUN apk update \
+    && apk add --no-cache gcc libc-dev cargo
 
-USER trainee
+COPY python/requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "-V"]
+COPY db/ /app/db/
+COPY python/ /app/python/
+
+EXPOSE 9000
+
+ENV DB_PATH=/app/db/items.db
+
+CMD ["uvicorn", "python.main:app", "--host", "0.0.0.0", "--port", "9000"]
+
+# docker build -t build2024/app:latest -f python/dockerfile .
