@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "name": "cat",
+      "category": "",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "",
+      "category": "",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "",
+      "category": "",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "skirts",
+      "category": "fashion",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "dog",
+      "category": "animal",
+      "image_name": ""
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    },
+    {
+      "id": 0,
+      "name": "jacket",
+      "category": "fashion",
+      "image_name": "7140f76459919c6dae7a4022035af8654085991143b6da137f65286e0d9c7efc.jpg"
+    }
+  ]
+}
