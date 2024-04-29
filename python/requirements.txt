@@ -1,7 +1,2 @@
 fastapi[all]>=0.75
 uvicorn[standard]>=0.15
-sqlite3  # This module is included with Python's standard library
-python-multipart  # Required for form data handling
-aiofiles  # Asynchronous file handling
-pathlib  # Included in Python's standard library from Python 3.4 onwards
-hashlib  #
