@@ -12,9 +12,11 @@ app = FastAPI()
 
 logger = logging.getLogger("uvicorn")
 logger.level = logging.DEBUG
-images = pathlib.Path(__file__).parent.resolve() / "images"
-db_path = pathlib.Path(__file__).parent.resolve() / "db/items.db"
-items_file = pathlib.Path(__file__).parent.resolve() / "items.json"
+
+images = pathlib.Path("/app/python/images")
+db_path = pathlib.Path("/app/db/items.db")
+items_file = pathlib.Path("/app/python/items.json")
+
 origins = [os.environ.get("FRONT_URL", "http://localhost:3000")]
 app.add_middleware(
     CORSMiddleware,
